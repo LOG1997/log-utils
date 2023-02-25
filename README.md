@@ -42,6 +42,7 @@ there are some params in this function:
 * idKey:the key of id in arrData,it's default value is 'id',**not necessary**.
 * pidKey:the key of pid in arrData,it's default value is 'pid'.**not necessary**.
 * childrenKey:the key of children in arrData,it's default value is 'children'.**not necessary**.
+
 there are a return data:
 * treeData:it's a tree data.
 
@@ -54,7 +55,9 @@ there are some params in this function:
 * Colorangle:the angle of gradient color,it's type is number. like:90.**not necessary**.
 there are a return data:
 * color:it's a gradient color string.like:linear-gradient(90deg, #ffffff, #ffffff).
+
 and ther are other functions in this package.
+
 table of contents:
 
 | Function | Description |
