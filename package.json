@@ -1,0 +1,42 @@
+{
+  "name": "log-utils",
+  "version": "0.0.0",
+  "description": "log1997's utils package",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm run build --watch --ignore-watch examples",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LOG1997/log-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "vue",
+    "react",
+    "vite",
+    "log1997",
+    "js",
+    "ts",
+    "frontend"
+  ],
+  "author": "log1997",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LOG1997/log-utils/issues"
+  },
+  "homepage": "https://github.com/LOG1997/log-utils#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.14.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "path": "^0.12.7",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  }
+}
