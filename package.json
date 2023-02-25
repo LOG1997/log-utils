@@ -4,9 +4,10 @@
   "description": "log1997's utils package",
   "main": "index.ts",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -u -i CHANGELOG.md -s -r 0",
+    "changelog": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pnpm run build --watch --ignore-watch examples",
+    "dev:react": "cd examples/react-project && npm run dev",
     "build": "vite build"
   },
   "repository": {
@@ -34,9 +35,11 @@
     "@types/node": "^18.14.1",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
+    "conventional-changelog": "^3.1.25",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.34.0",
     "path": "^0.12.7",
+    "standard-version": "^9.5.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
     "vite": "^4.1.4"
