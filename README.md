@@ -46,7 +46,7 @@ there are some params in this function:
 there are a return data:
 * treeData:it's a tree data.
 
-### ColorFun
+### ColorFunc
 #### `getRandomGradientColor`
 this function can be used to get a random gradient color string.
 there are some params in this function:
@@ -69,3 +69,19 @@ table of contents:
 |hsv2Rgb|hsv to rgb|
 |rotateHsv|rotate hsv default angle is 30°|
 |randomColor|get a random color|
+
+### MathFunc
+#### `byteToUnit`
+this function can be used to convert byte to unit.
+for example,if you want to convert 1024 byte to kb, you can use this function like this:
+```js
+import { byteToUnit } from 'log-utils'
+const kb=byteToUnit(1025,'kb'); //100.10KB
+```
+params:
+* byte:the number of byte.**necessary**.
+* unit:the unit of byte.default value is ''**not necessary**.
+* fixed:the number of fixed.default value is 2.**not necessary**.
+
+return:
+* unitByte:the string of unit data.

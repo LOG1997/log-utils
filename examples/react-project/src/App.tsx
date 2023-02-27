@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { arrayToTree, getRandomGradientColor, randomColor } from "../../../lib";
+import { arrayToTree, getRandomGradientColor, randomColor, byteToUnit } from "../../../lib";
 function App() {
   const [count, setCount] = useState(0);
   const data = [
@@ -93,6 +93,11 @@ function App() {
   const color2 = randomColor();
   console.log('😒color2:', color2)
   // const [treeData, setTreeData] = useState(tree)
+
+
+  const byteSize = 102500;
+  const unitSize = byteToUnit(byteSize);
+  console.log('😃unitSize:', unitSize)
   return (
     <div className="App">
       <div>
