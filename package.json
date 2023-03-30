@@ -1,6 +1,6 @@
 {
   "name": "log1997-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "log1997's utils package",
   "main": "lib/index.mjs",
   "types": "lib/index.d.ts",
