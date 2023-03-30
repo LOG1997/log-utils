@@ -8,7 +8,7 @@ it's can be used with vue,react or other js framework.
 ## Install
 
 ```bash
-npm install log-utils
+npm install log1997-utils
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ there are some utils in this package.you can use them by import them.
 for example:
 ```js
 // this function can be used to get tree data from list data
-import { arrayToTree } from 'log-utils'
+import { arrayToTree } from 'log1997-utils'
 const arrData=[
     {id:1,name:'a',pid:0},
     {id:2,name:'b',pid:1},
@@ -33,7 +33,15 @@ console.log(treeData);
 ```
 
 ## API
-
+<!-- toc -->
+* [ArrayFunc](#arrayfunc)
+  * [arrayToTree](#arraytotree)
+  * [treeToArray](#treetoarray)
+* [ColorFunc](#colorfunc)
+    * [getRandomGradientColor](#getrandomgradientcolor)
+* [MathFunc](#mathfunc)
+    * [byteToUnit](#bytetounit)
+<!-- tocstop -->
 ### ArrayFuc
 #### `arrayToTree`
 there are some params in this function:
@@ -45,6 +53,17 @@ there are some params in this function:
 
 there are a return data:
 * treeData:it's a tree data.
+
+
+#### `treeToArray`
+there are some params in this function:
+
+* treeData:a tree data and it's **necessary**.
+* childrenKey:the key of children in treeData,it's default value is 'children'.**not necessary**.
+
+there are a return data:
+* arrData:it's a array data.
+
 
 ### ColorFunc
 #### `getRandomGradientColor`
@@ -75,7 +94,7 @@ table of contents:
 this function can be used to convert byte to unit.
 for example,if you want to convert 1024 byte to kb, you can use this function like this:
 ```js
-import { byteToUnit } from 'log-utils'
+import { byteToUnit } from 'log1997-utils'
 const kb=byteToUnit(1025,'kb'); //100.10KB
 ```
 params:
