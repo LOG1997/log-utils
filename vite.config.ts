@@ -3,6 +3,8 @@ import path from "path";
 import { defineConfig } from "vite";
 import typescript from "@rollup/plugin-typescript";
 
+import viteCompression from "vite-plugin-compression";
+
 import removeConsole from "vite-plugin-remove-console";
 function resolve(str: string) {
   return path.resolve(__dirname, str);
@@ -11,6 +13,7 @@ function resolve(str: string) {
 export default defineConfig({
   plugins: [
     removeConsole(),
+    viteCompression(),
     typescript({
       target: "es5",
       rootDir: resolve("packages/"),
