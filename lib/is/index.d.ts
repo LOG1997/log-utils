@@ -1,0 +1,15 @@
+export declare const isObject: (val: any) => boolean;
+export declare const isArray: (val: any) => boolean;
+export declare const isUndefined: (val: any) => boolean;
+export declare const isNull: (val: any) => boolean;
+export declare const isUndefinedOrNull: (val: any) => boolean;
+export declare const isFunction: (val: any) => boolean;
+export declare const isString: (val: any) => boolean;
+export declare const isNumber: (val: any) => boolean;
+export declare const isBoolean: (val: any) => boolean;
+export declare const isSymbol: (val: any) => boolean;
+export declare const isDate: (val: any) => boolean;
+export declare const isRegExp: (val: any) => boolean;
+export declare const isPromise: (val: any) => boolean;
+export declare const isElement: (val: any) => boolean;
+export declare const isEvent: (val: any) => boolean;
