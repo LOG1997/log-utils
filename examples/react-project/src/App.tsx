@@ -1,8 +1,10 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import {  getRandomGradientColor, randomColor, byteToUnit,arrayToTree,treeToArr } from "../../../lib";
+import {  getRandomGradientColor, randomColor, byteToUnit } from "../../../lib";
 // import {arrayToTree,treeToArr} from '../../../packages/arrList/index'
+
+import {arrayToTree,treeToArr} from 'log1997-utils'
 function App() {
   const [count, setCount] = useState(0);
   type DataType={
