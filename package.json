@@ -2,7 +2,8 @@
   "name": "log1997-utils",
   "version": "0.0.1",
   "description": "log1997's utils package",
-  "main": "index.ts",
+  "main": "lib/index.mjs",
+  "types": "lib/index.d.ts",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,6 +29,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LOG1997/log-utils/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0",
+    "typescript": ">=4.0.0"
   },
   "homepage": "https://github.com/LOG1997/log-utils#readme",
   "devDependencies": {
