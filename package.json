@@ -25,6 +25,9 @@
     "ts",
     "frontend"
   ],
+  "files": [
+    "lib"
+  ],
   "author": "log1997",
   "license": "MIT",
   "bugs": {
