@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,N as t}from"./chunks/framework.80e84516.js";const p=JSON.parse('{"title":"ArrayFuc","description":"","frontmatter":{},"headers":[],"relativePath":"utils/arrList/index.md"}'),i={name:"utils/arrList/index.md"},s=t("",11),n=[s];function o(l,d,c,u,h,y){return r(),e("div",null,n)}const f=a(i,[["render",o]]);export{p as __pageData,f as default};

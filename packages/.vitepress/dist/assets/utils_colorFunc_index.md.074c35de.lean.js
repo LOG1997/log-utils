@@ -1,0 +1,1 @@
+import{_ as t,c as r,o as e,N as o}from"./chunks/framework.80e84516.js";const _=JSON.parse('{"title":"ColorFunc","description":"","frontmatter":{},"headers":[],"relativePath":"utils/colorFunc/index.md"}'),n={name:"utils/colorFunc/index.md"},a=o("",7),d=[a];function i(s,l,c,g,h,f){return e(),r("div",null,d)}const b=t(n,[["render",i]]);export{_ as __pageData,b as default};
