@@ -9,7 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pnpm run build --watch --ignore-watch examples",
     "dev:react": "cd examples/react-project && npm run dev",
-    "build": "vite build"
+    "build": "vite build",
+    "docs:dev": "vitepress dev packages",
+    "docs:build": "vitepress build packages",
+    "docs:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -50,6 +53,7 @@
     "typescript": "^4.9.5",
     "vite": "^4.1.4",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-remove-console": "^2.1.0"
+    "vite-plugin-remove-console": "^2.1.0",
+    "vitepress": "^1.0.0-alpha.64"
   }
 }
