@@ -6,7 +6,7 @@ on:
     paths:
       - .github/workflows/deploy.yml
 jobs:
-  publish-npm:
+  auto-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout # 将代码拉取到虚拟机
