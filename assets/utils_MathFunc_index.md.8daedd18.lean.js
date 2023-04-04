@@ -1,0 +1,1 @@
+import{_ as s,c as t,o as n,N as a}from"./chunks/framework.83ef0ede.js";const h=JSON.parse('{"title":"MathFunc","description":"","frontmatter":{},"headers":[],"relativePath":"utils/MathFunc/index.md"}'),e={name:"utils/MathFunc/index.md"},o=a("",8),l=[o];function p(c,r,i,y,u,D){return n(),t("div",null,l)}const F=s(e,[["render",p]]);export{h as __pageData,F as default};
