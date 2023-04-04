@@ -1,8 +1,0 @@
-dist
-node_modules
-*.d.ts
-lib
-.eslintrc.js
-.gitignore
-.npmignore
-package.json
