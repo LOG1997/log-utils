@@ -24,6 +24,7 @@ const functionList = inputList.map((item: any) => {
 });
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/log-utils/',
   title: 'Log-Utils',
   description: 'A Utils Useage from log1997',
   themeConfig: {
